@@ -5,14 +5,18 @@ const Counter = () => {
     const increaseCounter = () => {
         setCounter(counter+1);
     }
+    const resetCounter = () => {
+        setCounter(0);
+    }
     const decreaseCounter = () => {
         setCounter(counter-1);
     }
   return (
     <>
     <div><h1>Counter {counter}</h1></div>
-    <button onClick={decreaseCounter}>DECREASE counter</button>
-    <button onClick={increaseCounter}>INCREASE counter</button>
+    <button onClick={decreaseCounter}>-</button>
+    <button onClick={resetCounter}>RESET</button>
+    <button onClick={increaseCounter}>+</button>
     </>
   )
 }
