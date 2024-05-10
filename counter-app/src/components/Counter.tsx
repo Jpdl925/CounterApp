@@ -9,7 +9,12 @@ const Counter = () => {
         setCounter(0);
     }
     const decreaseCounter = () => {
+      if (counter == 0){
+        console.log("Cannot go below 0");
+      }
+      else{
         setCounter(counter-1);
+      }
     }
   return (
     <>
