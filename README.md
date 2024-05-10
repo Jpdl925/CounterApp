@@ -23,6 +23,6 @@ Style the component to make it visually appealing.
 
  // Last updated 5/9/24
 
-// Peer Review by: 
+// Peer Review by: Neo See
 
-// Comments: 
+// Comments: Make sure to add code that will prevent the counter from going below zero. other than that everything looks good.
